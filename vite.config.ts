@@ -2,7 +2,7 @@
 
 import { Plugin, defineConfig } from 'vite';
 import analog from '@analogjs/platform';
-import { augmentAppWithServiceWorker } from '@angular-devkit/build-angular/src/utils/service-worker';
+import { augmentAppWithServiceWorker } from '@angular/build/private';
 import * as path from 'path';
 import { UserConfig } from 'vite';
 
